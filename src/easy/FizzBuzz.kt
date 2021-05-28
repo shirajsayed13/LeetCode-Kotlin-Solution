@@ -35,7 +35,7 @@ class FizzBuzz {
 
 fun main() {
     val fb = FizzBuzz()
-    //val fizzBuzz = fb.fizzBuzz(15)
+    //val fizzBuzz = fb.traditionalFizzBuzz(15)
     val fizzBuzz = fb.optimizedFizzBuzz(15)
     println(fizzBuzz)
 }
